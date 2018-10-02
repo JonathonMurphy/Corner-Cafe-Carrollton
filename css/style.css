@@ -1,0 +1,97 @@
+body {
+  background-color: #2eb5c9;
+}
+
+a {
+  color: black;
+}
+a:hover {
+
+}
+a:visited {
+
+}
+a:active {
+
+}
+
+h3 {
+  margin: 10vw;
+}
+
+.header_logo {
+  width: 250px;
+}
+
+.navigation_left {
+  text-align: left;
+}
+
+.navigation_right {
+  text-align: right;
+}
+
+.navigation_options {
+  padding: 5vw;
+}
+
+.proclamation {
+  position: relative;
+  top: 15px;
+}
+
+.menu {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.menu_imgs {
+  width: 25vw;
+}
+
+.about_us_top {
+  background-color: #FFC037;
+  padding-left: 12vw;
+  padding-right: 12vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
+
+.about_us_top_text {
+  margin-bottom: 50px;
+}
+
+.about_us_bottom {
+  background-color: #FFC037;
+  padding-left: 12vw;
+  padding-right: 12vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  margin-bottom: 50px;
+}
+
+.about_us_left {
+  text-align: left;
+}
+
+.about_us_right {
+  text-align: right;
+}
+
+.food_img {
+  width: 400px;
+}
+
+.parallax_container {
+  /* The image used */
+  background-image: url("../img/food_14.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
