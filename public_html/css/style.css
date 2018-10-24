@@ -18,7 +18,6 @@ body:after{
       left:0;
       right:0;
       z-index:-1; /* needed to keep in the background */
-      background: url(https://www.w3schools.com/css/trolltunga.jpg) center center;
       -webkit-background-size: cover;
       -webkit-background-attachment: fixed;
       -moz-background-size: cover;
@@ -26,6 +25,21 @@ body:after{
       -o-background-size: cover;
       -o-background-attachment: fixed;
       background-size: cover;
+}
+
+.parallax_container {
+  background-image: url("../img/food_14.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -webkit-background-attachment: fixed;
+  -moz-background-size: cover;
+  -moz-background-attachment: fixed;
+  -o-background-size: cover;
+  -o-background-attachment: fixed;
 }
 
 h3 {
@@ -81,15 +95,6 @@ h3 {
   .food_img {
     width: 75vw;
   }
-}
-
-.parallax_container {
-  background-image: url("../img/food_14.jpg");
-  height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .iframe_map {
