@@ -1,45 +1,40 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
+  height: 100%;
+  width: 100%;
   background-color: #2eb5c9;
   font-family: 'Old Standard TT', serif;
   font: ld Standard TT;
-}
-
-a {
-  color: black;
-}
-a:hover {
-
-}
-a:visited {
-
-}
-a:active {
-
 }
 
 h3 {
   margin: 10vw;
 }
 
+.header_text {
+  font-size: 5vw;
+  font-family: 'Homemade Apple', cursive;
+  margin-top: 50px;
+}
+
+.header_text_right {
+  margin-left: 2vw;
+}
+
 .header_logo {
-  width: 250px;
-}
-
-.navigation_left {
-  text-align: left;
-}
-
-.navigation_right {
-  text-align: right;
-}
-
-.navigation_options {
-  padding: 5vw;
+  width: 25vw;
+  min-width: 10vw;
 }
 
 .proclamation {
+  font-family: 'Homemade Apple', cursive;
+  margin-top: 15px;
+  margin-bottom: 30px;
   position: relative;
-  top: 15px;
 }
 
 .menu {
@@ -51,37 +46,24 @@ h3 {
   width: 25vw;
 }
 
-.about_us_top {
+.about_us {
   background-color: #FFC037;
-  padding-left: 12vw;
-  padding-right: 12vw;
   padding-top: 3vw;
   padding-bottom: 3vw;
 }
 
-.about_us_top_text {
+.about_us_bottom_text {
   margin-bottom: 50px;
-}
-
-.about_us_bottom {
-  background-color: #FFC037;
-  padding-left: 12vw;
-  padding-right: 12vw;
-  padding-top: 3vw;
-  padding-bottom: 3vw;
-  margin-bottom: 50px;
-}
-
-.about_us_left {
-  text-align: left;
-}
-
-.about_us_right {
-  text-align: right;
 }
 
 .food_img {
-  width: 400px;
+  width: 35vw;
+}
+
+@media only screen and (max-width: 575px) {
+  .food_img {
+    width: 75vw;
+  }
 }
 
 .parallax_container {
@@ -100,4 +82,61 @@ h3 {
 .footer_text {
   text-align: center;
   margin-bottom: 50px;
+}
+
+.jellyfish-top {
+  background-color: pink;
+  height: 50px;
+  width: 100px;
+  border-radius: 50px 50px 0px 0px;
+  position: relative;
+  left: 3px;
+}
+
+.jellyfish-bubble {
+  background-color: pink;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  position: absolute;
+  top: 40px;
+}
+
+.jellyfish-eye {
+  background-color: white;
+  height: 5px;
+  width: 5px;
+  border-radius: 10px;
+  position: absolute;
+  top: 20px;
+}
+
+.jellyfish-eye-1 {
+  left: 30px;
+}
+
+.jellyfish-eye-2 {
+  left: 60px;
+}
+
+.jellyfish-bubble-1 {
+  left: ;
+}
+.jellyfish-bubble-2 {
+  left: 20px;
+}
+.jellyfish-bubble-3 {
+  left: 40px;
+}
+.jellyfish-bubble-4 {
+  left: 60px;
+}
+.jellyfish-bubble-5 {
+  left: 80px;
+}
+.jellyfish-bubble-6 {
+  left: ;
+}
+.jellyfish-bubble-7 {
+  left: ;
 }
