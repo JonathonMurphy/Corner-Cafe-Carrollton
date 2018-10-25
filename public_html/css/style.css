@@ -27,7 +27,25 @@ body:after{
       background-size: cover;
 }
 
-
+a {
+  text-decoration: underline;
+}
+/* unvisited link */
+a:link {
+    color: #292b2c;
+}
+/* visited link */
+a:visited {
+    color: #292b2c;
+}
+/* mouse over link */
+a:hover {
+    color: #292b2c;
+}
+/* selected link */
+a:active {
+    color: #292b2c;
+}
 
 .parallax_container {
   background-image: url("../img/food_14.jpg");
