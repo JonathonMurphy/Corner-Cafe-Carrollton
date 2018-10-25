@@ -27,6 +27,8 @@ body:after{
       background-size: cover;
 }
 
+
+
 .parallax_container {
   background-image: url("../img/food_14.jpg");
   height: 500px;
@@ -40,6 +42,22 @@ body:after{
   -moz-background-attachment: fixed;
   -o-background-size: cover;
   -o-background-attachment: fixed;
+}
+
+.parallax_mobile_replacement {
+  display: none;
+}
+
+
+
+@media only screen and (max-width: 575px) {
+  .parallax_container_desktop {
+    display: none;
+  }
+  .parallax_mobile_replacement {
+    display: block;
+    background-color: #FFC037;
+  }
 }
 
 h3 {
