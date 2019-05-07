@@ -1,4 +1,4 @@
-# JSMurphy.Info
+# CornerCafé.com
 
 This is my webpage I mocked up for a client. It's a pretty basic restaurant website. You can check it out at cornercafé.com (mind the tilde)
 
