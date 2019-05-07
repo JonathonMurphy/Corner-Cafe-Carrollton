@@ -48,8 +48,6 @@ a:active {
 }
 
 .parallax_container {
-  background-image: url("../img/food_14.jpg");
-  height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -60,6 +58,18 @@ a:active {
   -moz-background-attachment: fixed;
   -o-background-size: cover;
   -o-background-attachment: fixed;
+}
+
+.parallax_container_top {
+  background-image: url("../img/food_1.jpg");
+  height: 100vh;
+  background-color: #2eb5c9;
+}
+
+.parallax_container_middle {
+  background-image: url("../img/food_14.jpg");
+  height: 500px;
+  background-color: #FFC037;
 }
 
 .parallax_mobile_replacement {
@@ -74,7 +84,7 @@ a:active {
   }
   .parallax_mobile_replacement {
     display: block;
-    background-color: #FFC037;
+
   }
 }
 
